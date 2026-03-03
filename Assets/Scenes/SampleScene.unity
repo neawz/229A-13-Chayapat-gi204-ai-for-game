@@ -423,16 +423,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkyboxChanger
   skyboxZones:
-  - zoneName: Mushroom
+  - zoneName: 
     position: {x: -30, y: -95.2, z: 176.2}
     radius: 69.4
     skyboxMaterial: {fileID: 2100000, guid: 15e44ffa516bc1c4fb789a77e3832f92, type: 2}
+    ambientSound: {fileID: 8300000, guid: 500362ff1d71dd642a41a34d4390b6df, type: 3}
+    volume: 0.5
   - zoneName: 
     position: {x: 110, y: -95.2, z: 176.2}
     radius: 66.2
     skyboxMaterial: {fileID: 2100000, guid: 1e3a34b37e3385240a81c383b0e85088, type: 2}
+    ambientSound: {fileID: 8300000, guid: bf22c6fbfefcfb74fb97437a6b96ec36, type: 3}
+    volume: 0.5
   defaultSkybox: {fileID: 2100000, guid: 75f7238a454e39c41b2e3204c721fd8c, type: 2}
-  fadeDuration: 2
+  defaultAmbientSound: {fileID: 8300000, guid: 052254d8b7e6e5a4bb6df1fef03ef00b, type: 3}
+  defaultVolume: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
